@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<form>
+    <!-- Size Attribute->The box will extended and maxlength Attribute----->
+    <label for="fname">Name</label><br>
+    <input type="text" id="fname" name="fname" size="100" maxlength="5"><br>
+    <!-- value Attribute  -->
+    <label for="fname">First name:</label><br>
+    <input type="text" id="fname" name="fname" value="King"><br>
+
+    <!-- Readonly Attribute -->
+    <label for="fname">Second name:</label><br>
+    <input type="text" id="fname" name="fname" value="sai" readonly><br>
+
+    <!-- Disbaled Attribute -->
+    <label for="fname">Third name:</label><br>
+    <input type="text" id="fname" name="fname" value="ram" disabled><br>
+
+    <!-- max and min date -->
+    <label for="datemax">Enter a date before 1980-01-01:</label><br>
+    <input type="date" id="maxdate" name="maxdate" max="1979-12-31"><br>
+
+    <label for="datemin">Enter a date after 2000-01-01:</label><br>
+    <input type="date" id="mindate" name="mindate" min="2000-01-02"><br>
+      <!-- step attribute -->
+    <label for="quantity">quantity between(1-10):</label>
+    <input type="number" id="quantity" name="quantity" min="1" max="10" step="2"><br>
+    
+    <!-- file Attribute and multiple -->
+    <label for="files">Select files</label>
+    <input type="file" id="files" name="files" multiple><br>
+
+    <!-- placeholder attribute and required attribute -->
+    <label for="address">Address:</label>
+    <input type="text" id="faddress" name="faddress" placeholder="Enter your address" required><br>
+
+    <!-- auto focus and auto complete -->
+    <label for="autofocus">Autofocusandcomlete</label>
+    <input type="text" id="tname" name="tname" autofocus><br>
+
+    <!-- auto complete -->
+    <label for="email">Email:</label>
+  <input type="email" id="email" name="email" autocomplete="on"><br>
+
+
+     
+    <!-- sumbit button -->
+    <input type="submit" value="submit">
+</form>
+</body>
+</html>
